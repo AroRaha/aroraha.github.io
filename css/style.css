@@ -197,7 +197,7 @@ textarea {
   outline: none !important;
   -webkit-appearance: none;
 }
-img {
+#img {
   max-width: 100%;
 }
 /****Heads****/
@@ -391,7 +391,8 @@ header {
   position: relative;
   z-index: 999;
   padding: 18px 0 77px;
-  background: url(../images/slide.jpg) center 0 no-repeat;
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.5) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0.5))); /* Chrome,Safari4+ */
 }
 header .rel {
   z-index: 999;

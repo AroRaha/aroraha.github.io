@@ -7,13 +7,13 @@ body {
 	min-width: 1120px;
 }
 
-#form .invalid .error-message, 
+#form .invalid .error-message,
 #form .empty .empty-message {
 	display: block;
 
 }
 
-#form .error-message, 
+#form .error-message,
 #form .empty-message {
 	display: none;
 }
@@ -29,4 +29,8 @@ body {
 
 #contact-form.loading .contact-form-loader  {
 	display: block;
+}
+
+header{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */
 }
